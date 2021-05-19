@@ -1,5 +1,5 @@
 # Tarea 5.2 | Curriculum Vitae
-Este repositorio fue creado para la practica en clase 3.4 de la materia de Desarrollo Basado en Plataformas por Humberto Alejandro Navarro Andujo.
+Este repositorio fue creado para la tarea 5.2 de la materia de Desarrollo Basado en Plataformas por Humberto Alejandro Navarro Andujo.
 
 ## Descripción de los problemas
 Utilizando lo aprendido de HTML y CSS, cree su propio curriculum vitae el cual debe de contener todos los siguientes elementos:
