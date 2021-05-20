@@ -26,7 +26,6 @@ body {
   font-size: 16px;
 }
 
-
 .curriculum {
   width: 800px;
   height: auto;
@@ -53,39 +52,39 @@ body {
   padding: 0 25px;
 }
 
-.curriculum .title{
+.curriculum .title {
   margin-bottom: 20px;
 }
 
-.curriculum .curriculum_izquierda .negritas{
+.curriculum .curriculum_izquierda .negritas {
   color: #fff;
 }
 
-.curriculum .curriculum_izquierda .normal{
+.curriculum .curriculum_izquierda .normal {
   color: #b1eaff;
 }
 
-.curriculum .curriculum_item{
+.curriculum .curriculum_item {
   padding: 25px 0;
   border-bottom: 2px solid #b1eaff;
 }
 
 .curriculum .curriculum_izquierda .curriculum_item:last-child,
-.curriculum .curriculum_derecha .curriculum_item:last-child{
+.curriculum .curriculum_derecha .curriculum_item:last-child {
   border-bottom: 0px;
 }
 
-.curriculum .curriculum_izquierda ul li{
+.curriculum .curriculum_izquierda ul li {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
 }
 
-.curriculum .curriculum_izquierda ul li:last-child{
+.curriculum .curriculum_izquierda ul li:last-child {
   margin-bottom: 0px;
 }
 
-.curriculum .curriculum_izquierda ul li .icono{
+.curriculum .curriculum_izquierda ul li .icono {
   width: 35px;
   height: 35px;
   background: #fff;
@@ -96,53 +95,54 @@ body {
   position: relative;
 }
 
-.curriculum .icono i{
+.curriculum .icono i,
+.curriculum .curriculum_derecha .curriculum_habilidades ul li i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.curriculum .curriculum_izquierda ul li .datos{
+.curriculum .curriculum_izquierda ul li .datos {
   color: #b1eaff;
 }
 
-.curriculum .curriculum_derecha{
+.curriculum .curriculum_derecha {
   width: 520px;
   background: #fff;
   padding: 25px;
 }
 
-.curriculum .curriculum_derecha .negritas{
+.curriculum .curriculum_derecha .negritas {
   color: #0bb5f4;
 }
 
 .curriculum .curriculum_derecha .curriculum_experiencia ul,
-.curriculum .curriculum_derecha .curriculum_educacion ul{
+.curriculum .curriculum_derecha .curriculum_educacion ul {
   padding-left: 40px;
   overflow: hidden;
 }
 
-.curriculum .curriculum_derecha ul li{
+.curriculum .curriculum_derecha ul li {
   position: relative;
 }
 
-.curriculum .curriculum_derecha ul li .fecha{
+.curriculum .curriculum_derecha ul li .fecha {
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.curriculum .curriculum_derecha ul li .info{
+.curriculum .curriculum_derecha ul li .info {
   margin-bottom: 20px;
 }
 
-.curriculum .curriculum_derecha ul li:last-child .info{
+.curriculum .curriculum_derecha ul li:last-child .info {
   margin-bottom: 0;
 }
 
 .curriculum .curriculum_derecha .curriculum_experiencia ul li:before,
-.curriculum .curriculum_derecha .curriculum_educacion ul li:before{
+.curriculum .curriculum_derecha .curriculum_educacion ul li:before {
   content: "";
   position: absolute;
   top: 5px;
@@ -151,11 +151,10 @@ body {
   height: 6px;
   border-radius: 50%;
   border: 2px solid #0bb5f4;
-
 }
 
 .curriculum .curriculum_derecha .curriculum_experiencia ul li:after,
-.curriculum .curriculum_derecha .curriculum_educacion ul li:after{
+.curriculum .curriculum_derecha .curriculum_educacion ul li:after {
   content: "";
   position: absolute;
   top: 14px;
@@ -179,6 +178,11 @@ body {
   color: #0bb5f4;
 }
 
+.curriculum .curriculum_derecha .curriculum_habilidades ul li i {
+  font-size: 35px;
+  position: relative;
+}
+
 .curriculum .curriculum_derecha .curriculum_habilidades ul li:before {
   content: "";
   position: absolute;
@@ -193,6 +197,6 @@ body {
   display: none;
 }
 
-.curriculum .curriculum_derecha .curriculum_habilidades .curriculum_img{
+.curriculum .curriculum_derecha .curriculum_habilidades .curriculum_img {
   border-radius: 48%;
 }
