@@ -70,7 +70,8 @@ body {
   border-bottom: 2px solid #b1eaff;
 }
 
-.curriculum .curriculum_izquierda .curriculum_item:last-child{
+.curriculum .curriculum_izquierda .curriculum_item:last-child,
+.curriculum .curriculum_derecha .curriculum_item:last-child{
   border-bottom: 0px;
 }
 
@@ -106,11 +107,92 @@ body {
   color: #b1eaff;
 }
 
-.curriculum .curriculum_izquierda .curriculum_habilidades ul li{
-  color: #b1eaff;
+.curriculum .curriculum_derecha{
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+.curriculum .curriculum_derecha .negritas{
+  color: #0bb5f4;
+}
+
+.curriculum .curriculum_derecha .curriculum_experiencia ul,
+.curriculum .curriculum_derecha .curriculum_educacion ul{
+  padding-left: 40px;
+  overflow: hidden;
+}
+
+.curriculum .curriculum_derecha ul li{
+  position: relative;
+}
+
+.curriculum .curriculum_derecha ul li .fecha{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.curriculum .curriculum_derecha ul li .info{
+  margin-bottom: 20px;
+}
+
+.curriculum .curriculum_derecha ul li:last-child .info{
+  margin-bottom: 0;
+}
+
+.curriculum .curriculum_derecha .curriculum_experiencia ul li:before,
+.curriculum .curriculum_derecha .curriculum_educacion ul li:before{
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -25px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid #0bb5f4;
+
+}
+
+.curriculum .curriculum_derecha .curriculum_experiencia ul li:after,
+.curriculum .curriculum_derecha .curriculum_educacion ul li:after{
+  content: "";
+  position: absolute;
+  top: 14px;
+  left: -21px;
+  width: 2px;
+  height: 135px;
+  background: #0bb5f4;
+}
+
+.curriculum .curriculum_derecha .curriculum_habilidades ul {
+  display: flex;
   justify-content: space-between;
 }
 
-.curriculum .curriculum_izquierda .curriculum_habilidades ul li .nombre_habilidad{
-  width: 25%;
+.curriculum .curriculum_derecha .curriculum_habilidades ul li {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #0bb5f4;
+  border-radius: 50%;
+  position: relative;
+  color: #0bb5f4;
+}
+
+.curriculum .curriculum_derecha .curriculum_habilidades ul li:before {
+  content: "";
+  position: absolute;
+  top: 22px;
+  right: -23px;
+  width: 23px;
+  height: 2px;
+  background: #0bb5f4;
+}
+
+.curriculum .curriculum_derecha .curriculum_habilidades ul li:last-child:before {
+  display: none;
+}
+
+.curriculum .curriculum_derecha .curriculum_habilidades .curriculum_img{
+  border-radius: 48%;
 }
