@@ -43,7 +43,7 @@ Una vez que el servidor se este ejecutando, se puede verificar que el sitio web 
 ```
 localhost:8888/
 ```
-Que nos llevara a la pagina principal del sitio web.
+Que nos llevara a la pagina principal del sitio web, que en este caso solo es el curriculum.
 
 
 ## Construido con
@@ -68,3 +68,5 @@ El proyecto tiene libre licencia o algo asi ;)
 El profesor Luis Antonio Ramirez Martinez fue quien nos inspiro a realizar este proyecto/tarea, muchas gracias profe. Su clase es la unica chida.
 
 Gracias a las personas de PurpleBooth por su plantilla/referencia de como debe ser el [formato de un readme](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+
+El usuario de YouTube "Coding Market" por subir su [video](https://youtu.be/zAVhHHS_IH4) en el cual me base para realizar mi curriculum.
