@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #585c68;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+}
+
+.negritas {
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.semi-negritas {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.curriculum {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto;
+}
+
+.curriculum .curriculum_izquierda {
+  width: 280px;
+  background: #0bb5f4;
+}
+
+.curriculum .curriculum_izquierda .curriculum_perfil {
+  width: 100%;
+  height: 350px;
+}
+
+.curriculum .curriculum_izquierda .curriculum_perfil img {
+  width: 100%;
+  height: 100%;
+}
+
+.curriculum .curriculum_izquierda .curriculum_contenido {
+  padding: 0 25px;
+}
+
+.curriculum .title{
+  margin-bottom: 20px;
+}
+
+.curriculum .curriculum_izquierda .negritas{
+  color: #fff;
+}
+
+.curriculum .curriculum_izquierda .normal{
+  color: #b1eaff;
+}
+
+.curriculum .curriculum_item{
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.curriculum .curriculum_izquierda .curriculum_item:last-child{
+  border-bottom: 0px;
+}
+
+.curriculum .curriculum_izquierda ul li{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.curriculum .curriculum_izquierda ul li:last-child{
+  margin-bottom: 0px;
+}
+
+.curriculum .curriculum_izquierda ul li .icono{
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  color: #0bb5f4;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+.curriculum .icono i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.curriculum .curriculum_izquierda ul li .datos{
+  color: #b1eaff;
+}
+
+.curriculum .curriculum_izquierda .curriculum_habilidades ul li{
+  color: #b1eaff;
+  justify-content: space-between;
+}
+
+.curriculum .curriculum_izquierda .curriculum_habilidades ul li .nombre_habilidad{
+  width: 25%;
+}
